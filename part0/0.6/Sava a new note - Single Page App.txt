@@ -1,0 +1,15 @@
+title Sava a new note - Single Page App
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over server:
+save the note in the form data 
+end note
+
+server-->browser: HTTP response
+
+
+note over browser:
+remove the first note and add new note to the bottom 
+if new note created successfully
+end note
